@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOVA 動空間｜商業模式提案</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+  <main class="deck" id="deck">
+
+    <!-- ===================== 01 封面 ===================== -->
+    <section class="slide cover" data-title="封面">
+      <div class="cover-grid">
+        <div class="cover-text">
+          <div class="brand reveal"><span class="logo">M</span>MOVA 動空間</div>
+          <h1 class="reveal" style="--d:.1s">讓運動，像便利商店<br>一樣<span class="hl">隨處可得</span></h1>
+          <p class="lead reveal" style="--d:.2s">24 小時智慧共享健身空間 ・ Pre-A 輪商業模式提案</p>
+          <div class="cover-stats reveal" style="--d:.3s">
+            <div><b data-count="3">0</b><span>營運門市</span></div>
+            <div><b data-count="1050">0</b><b>+</b><span>付費會員</span></div>
+            <div><b data-count="92">0</b><b>%</b><span>月續約率</span></div>
+          </div>
+          <p class="cover-meta reveal" style="--d:.4s">2026.10 ・ 投資人簡報 ・ 按 → 或空白鍵開始</p>
+        </div>
+        <div class="cover-visual reveal" style="--d:.2s">
+          <div class="cv-card cv-main">
+            <span class="cv-label">OPEN</span>
+            <span class="cv-big">24H</span>
+            <span class="cv-sub">刷臉進場 ・ 月付不綁約 ・ 全台通用</span>
+          </div>
+          <div class="cv-card cv-float f1">
+            <span class="dot live"></span>
+            <div><small>信義旗艦店 目前在館</small><b><span data-count="37">0</span> 人</b></div>
+          </div>
+          <div class="cv-card cv-float f2">
+            <small>本週入場次數</small>
+            <b data-count="1486">0</b>
+            <svg viewBox="0 0 120 32" class="spark"><polyline points="0,26 17,22 34,24 51,15 68,18 85,9 102,11 120,4" /></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 02 痛點 ===================== -->
+    <section class="slide" data-title="市場痛點">
+      <header class="s-head">
+        <span class="eyebrow">01 ・ Problem</span>
+        <h2>想運動的人很多，<br>但傳統健身房的門檻太高</h2>
+      </header>
+      <div class="slide-body">
+        <div class="stat-row">
+          <div class="stat-card reveal" style="--d:.05s">
+            <div class="stat-num"><b data-count="62">0</b><span>%</span></div>
+            <h3>會員一年內停止使用</h3>
+            <p>綁約 12–24 個月，但多數人三個月後就很少再去。</p>
+          </div>
+          <div class="stat-card reveal" style="--d:.15s">
+            <div class="stat-num"><b data-count="47">0</b><span>分鐘</span></div>
+            <h3>平均往返通勤時間</h3>
+            <p>大型健身房集中在商圈，下班後再繞路成本太高。</p>
+          </div>
+          <div class="stat-card reveal" style="--d:.25s">
+            <div class="stat-num"><small>NT$</small><b data-count="2.4" data-decimals="1">0</b><span>萬</span></div>
+            <h3>入會年費門檻</h3>
+            <p>入會費＋綁約年費，讓新手在開始前就打退堂鼓。</p>
+          </div>
+        </div>
+        <blockquote class="pull reveal" style="--d:.35s">
+          問題不是大家沒有動機，而是<b>「距離、時間、合約」</b>三道門檻。
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===================== 03 解決方案 ===================== -->
+    <section class="slide" data-title="解決方案">
+      <header class="s-head">
+        <span class="eyebrow">02 ・ Solution</span>
+        <h2>MOVA：開在生活圈裡的 24H 智慧健身空間</h2>
+      </header>
+      <div class="slide-body solution-grid">
+        <ul class="feature-list">
+          <li class="reveal" style="--d:.05s">
+            <i class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i>
+            <div><h3>24 小時無人化營運</h3><p>App 刷臉進場、AI 監控與緊急呼叫，人力成本降低 60%。</p></div>
+          </li>
+          <li class="reveal" style="--d:.12s">
+            <i class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></i>
+            <div><h3>月付 NT$1,099 不綁約</h3><p>隨時暫停、隨時恢復，第一次健身的人也沒有壓力。</p></div>
+          </li>
+          <li class="reveal" style="--d:.19s">
+            <i class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></i>
+            <div><h3>全台門市通用</h3><p>捷運站、住宅區 500 公尺內佈點，出差、返鄉都能練。</p></div>
+          </li>
+          <li class="reveal" style="--d:.26s">
+            <i class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l2.2 5.3L20 9l-4.4 3.8L17 18.5 12 15.6 7 18.5l1.4-5.7L4 9l5.8-.7z"/></svg></i>
+            <div><h3>AI 課表 × 教練媒合</h3><p>依體態與目標生成課表，需要時一鍵預約認證教練。</p></div>
+          </li>
+        </ul>
+        <div class="phone-wrap reveal" style="--d:.15s">
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="app">
+              <div class="app-top"><span class="logo sm">M</span><span>早安，Alex</span></div>
+              <div class="app-card dark">
+                <small>最近門市</small>
+                <b>信義旗艦店 ・ 350m</b>
+                <div class="occ"><span style="width:38%"></span></div>
+                <small>目前 23 人 ・ 舒適</small>
+              </div>
+              <button class="app-btn" type="button">刷臉進場</button>
+              <div class="app-row"><span>今日課表</span><b>上肢推 ・ 45 分</b></div>
+              <div class="app-row"><span>教練預約</span><b>週四 19:30</b></div>
+              <div class="app-row"><span>本月運動</span><b>12 次 🔥</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 04 市場規模 ===================== -->
+    <section class="slide" data-title="市場規模">
+      <header class="s-head">
+        <span class="eyebrow">03 ・ Market</span>
+        <h2>台灣健身市場持續成長，小型 24H 場館是最快的區塊</h2>
+      </header>
+      <div class="slide-body market-grid">
+        <div class="tam reveal">
+          <div class="circle c1"><span>TAM</span></div>
+          <div class="circle c2"><span>SAM</span></div>
+          <div class="circle c3"><span>SOM</span></div>
+        </div>
+        <div class="market-list">
+          <div class="m-row reveal" style="--d:.1s">
+            <span class="m-tag t1">TAM</span>
+            <div><h3>台灣健身產業總產值</h3><p>運動人口 33%，健身房滲透率仍低於日韓</p></div>
+            <div class="m-val">NT$ <b data-count="320">0</b> 億</div>
+          </div>
+          <div class="m-row reveal" style="--d:.2s">
+            <span class="m-tag t2">SAM</span>
+            <div><h3>六都 24H 小型健身需求</h3><p>25–45 歲上班族、通勤族、小家庭</p></div>
+            <div class="m-val">NT$ <b data-count="86">0</b> 億</div>
+          </div>
+          <div class="m-row reveal" style="--d:.3s">
+            <span class="m-tag t3">SOM</span>
+            <div><h3>MOVA 五年可取得市場</h3><p>以 35 家門市、1.5 萬會員估算</p></div>
+            <div class="m-val">NT$ <b data-count="2.2" data-decimals="1">0</b> 億</div>
+          </div>
+          <div class="growth reveal" style="--d:.4s">
+            <div><b data-count="8.6" data-decimals="1">0</b><span>%</span><small>產業年複合成長率</small></div>
+            <div><b data-count="41">0</b><span>%</span><small>24H 場館年增率</small></div>
+            <div><b data-count="1.9" data-decimals="1">0</b><span>倍</span><small>疫後健身人口成長</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 05 商業模式 ===================== -->
+    <section class="slide" data-title="商業模式">
+      <header class="s-head">
+        <span class="eyebrow">04 ・ Business Model</span>
+        <h2>以會員訂閱為核心，疊加高毛利的加值收入</h2>
+      </header>
+      <div class="slide-body bm-grid">
+        <div class="card reveal">
+          <h3 class="card-title">營收結構（2028 預估）</h3>
+          <div class="rev-stream">
+            <div class="rs"><div class="rs-top"><span>月費會員訂閱</span><b>62%</b></div><div class="bar"><i style="--w:62%"></i></div></div>
+            <div class="rs"><div class="rs-top"><span>教練媒合抽成</span><b>18%</b></div><div class="bar"><i style="--w:18%"></i></div></div>
+            <div class="rs"><div class="rs-top"><span>加盟授權金與月費</span><b>12%</b></div><div class="bar"><i style="--w:12%"></i></div></div>
+            <div class="rs"><div class="rs-top"><span>品牌合作與店內廣告</span><b>8%</b></div><div class="bar"><i style="--w:8%"></i></div></div>
+          </div>
+        </div>
+        <div class="card reveal" style="--d:.12s">
+          <h3 class="card-title">單店經濟模型（標準店 55 坪）</h3>
+          <div class="ue-grid">
+            <div><small>開店投資</small><b>NT$ <span data-count="85">0</span> 萬</b></div>
+            <div><small>穩定期會員數</small><b><span data-count="320">0</span> 人</b></div>
+            <div><small>月營收</small><b>NT$ <span data-count="36">0</span> 萬</b></div>
+            <div><small>EBITDA 利潤率</small><b><span data-count="28">0</span>%</b></div>
+            <div><small>每店人力</small><b><span data-count="1.5" data-decimals="1">0</span> 人</b></div>
+            <div class="hi"><small>投資回收期</small><b><span data-count="14">0</span> 個月</b></div>
+          </div>
+        </div>
+        <div class="flow reveal" style="--d:.24s">
+          <div class="node">會員<small>月費訂閱</small></div>
+          <div class="arrow">→</div>
+          <div class="node main">MOVA 平台<small>門市 ＋ App ＋ 數據</small></div>
+          <div class="arrow">→</div>
+          <div class="node">教練／品牌<small>媒合抽成・廣告</small></div>
+          <div class="arrow">→</div>
+          <div class="node">加盟主<small>授權擴張</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 06 競爭分析 ===================== -->
+    <section class="slide" data-title="競爭分析">
+      <header class="s-head">
+        <span class="eyebrow">05 ・ Competition</span>
+        <h2>在「便利」與「價格」之間，找到沒人站穩的位置</h2>
+      </header>
+      <div class="slide-body comp-grid">
+        <div class="matrix reveal">
+          <span class="ax ax-y">便利性 / 彈性 ↑</span>
+          <span class="ax ax-x">月費價格 →</span>
+          <div class="plot">
+            <div class="q-line h"></div><div class="q-line v"></div>
+            <div class="dot-c" style="left:72%;top:66%"><i></i>大型連鎖健身房</div>
+            <div class="dot-c" style="left:86%;top:30%"><i></i>精品團課工作室</div>
+            <div class="dot-c" style="left:18%;top:78%"><i></i>公營運動中心</div>
+            <div class="dot-c" style="left:38%;top:58%"><i></i>傳統社區健身房</div>
+            <div class="dot-c me" style="left:30%;top:16%"><i></i>MOVA 動空間</div>
+          </div>
+        </div>
+        <div class="card table-card reveal" style="--d:.12s">
+          <table class="cmp">
+            <thead><tr><th></th><th class="me">MOVA</th><th>大型連鎖</th><th>社區健身房</th><th>團課工作室</th></tr></thead>
+            <tbody>
+              <tr><td>24 小時營業</td><td class="me">✔</td><td>△</td><td>✕</td><td>✕</td></tr>
+              <tr><td>月付不綁約</td><td class="me">✔</td><td>✕</td><td>△</td><td>✔</td></tr>
+              <tr><td>多店通用</td><td class="me">✔</td><td>✔</td><td>✕</td><td>✕</td></tr>
+              <tr><td>App 數據化</td><td class="me">✔</td><td>△</td><td>✕</td><td>△</td></tr>
+              <tr><td>平均月費</td><td class="me">$1,099</td><td>$2,000+</td><td>$800</td><td>$4,500+</td></tr>
+              <tr><td>單店開店成本</td><td class="me">85 萬</td><td>3,000 萬+</td><td>200 萬</td><td>150 萬</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 07 展店地圖（互動） ===================== -->
+    <section class="slide" data-title="全台展店地圖" id="slide-map">
+      <header class="s-head row">
+        <div>
+          <span class="eyebrow">06 ・ Expansion Map <em class="live-tag">互動</em></span>
+          <h2>三階段展店：從雙北出發，2028 年覆蓋全台</h2>
+        </div>
+        <p class="hint">點擊地圖上的門市或右側清單，查看門市資訊</p>
+      </header>
+      <div class="slide-body map-layout">
+        <div class="map-wrap">
+          <div id="storeMap" class="map"></div>
+          <div class="map-legend" id="mapLegend"></div>
+        </div>
+        <aside class="map-panel">
+          <div class="seg" id="phaseFilter" role="tablist" aria-label="展店階段篩選"></div>
+          <div class="phase-summary" id="phaseSummary"></div>
+          <div class="store-card" id="storeCard">
+            <div class="empty">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              <p>選擇一間門市<br>查看開幕時間、投資與營收預估</p>
+            </div>
+          </div>
+          <ul class="store-list" id="storeList"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== 08 財務預測（互動） ===================== -->
+    <section class="slide" data-title="財務預測" id="slide-finance">
+      <header class="s-head row">
+        <div>
+          <span class="eyebrow">07 ・ Financials <em class="live-tag">互動</em></span>
+          <h2>五年營收成長 15 倍，2027 年 EBITDA 轉正</h2>
+        </div>
+        <div class="seg" id="scenarioSeg" role="tablist" aria-label="情境切換"></div>
+      </header>
+      <div class="slide-body fin-grid">
+        <div class="card chart-card">
+          <div class="chart-legend">
+            <span><i style="background:var(--accent)"></i>營收</span>
+            <span><i style="background:var(--navy)"></i>EBITDA</span>
+            <span class="muted">單位：新台幣</span>
+          </div>
+          <div class="chart-box" id="financeChart"></div>
+          <div class="tooltip" id="finTip"></div>
+        </div>
+        <div class="fin-kpis">
+          <div class="kpi"><small>2030 年營收</small><b id="fk-rev">—</b></div>
+          <div class="kpi"><small>五年營收 CAGR</small><b id="fk-cagr">—</b></div>
+          <div class="kpi"><small>EBITDA 轉正</small><b id="fk-be">—</b></div>
+          <div class="kpi"><small>2030 門市數</small><b id="fk-stores">—</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 09 團隊 ===================== -->
+    <section class="slide" data-title="團隊">
+      <header class="s-head">
+        <span class="eyebrow">08 ・ Team</span>
+        <h2>懂運動、懂零售、也懂科技的創始團隊</h2>
+      </header>
+      <div class="slide-body team-grid">
+        <div class="member reveal" style="--d:.05s"><div class="avatar a1">林</div><h3>林子揚</h3><span class="role">共同創辦人 & CEO</span><p>前國際運動品牌台灣區營運總監，12 年零售展店經驗，主導 40+ 門市開設。</p></div>
+        <div class="member reveal" style="--d:.12s"><div class="avatar a2">陳</div><h3>陳怡安</h3><span class="role">共同創辦人 & COO</span><p>前連鎖便利商店區域經理，擅長選址模型與無人化門市營運流程。</p></div>
+        <div class="member reveal" style="--d:.19s"><div class="avatar a3">王</div><h3>王柏翰</h3><span class="role">CTO</span><p>前電商平台技術主管，負責會員系統、刷臉門禁與 AI 課表引擎。</p></div>
+        <div class="member reveal" style="--d:.26s"><div class="avatar a4">張</div><h3>張郁婷</h3><span class="role">健身長 Head of Training</span><p>NSCA-CSCS 認證體能教練，建立 MOVA 教練認證與課程標準。</p></div>
+      </div>
+      <div class="advisors reveal" style="--d:.33s">
+        <span>顧問團隊</span> 連鎖餐飲加盟顧問 ・ 運動醫學醫師 ・ 前創投合夥人
+      </div>
+    </section>
+
+    <!-- ===================== 10 募資模擬（互動） ===================== -->
+    <section class="slide" data-title="募資金額模擬" id="slide-fund">
+      <header class="s-head row">
+        <div>
+          <span class="eyebrow">09 ・ Funding Simulator <em class="live-tag">互動</em></span>
+          <h2>您的投資，能讓 MOVA 走多遠？</h2>
+        </div>
+        <p class="hint">拖曳滑桿或點選金額，即時試算</p>
+      </header>
+      <div class="slide-body fund-layout">
+        <div class="card fund-controls">
+          <small class="lbl">本輪募資金額</small>
+          <div class="fund-amount"><span>NT$</span><b id="fundValue">500</b><span>萬</span></div>
+          <input type="range" id="fundRange" aria-label="募資金額">
+          <div class="range-scale"><span>300 萬</span><span>1,000 萬</span></div>
+          <div class="seg presets" id="fundPresets"></div>
+          <div class="alloc">
+            <small class="lbl">資金運用規劃</small>
+            <div class="alloc-bar" id="allocBar"></div>
+            <ul class="alloc-legend" id="allocLegend"></ul>
+          </div>
+        </div>
+        <div class="fund-results">
+          <div class="kpi-grid">
+            <div class="kpi big"><small>預計新開門市</small><b><span id="fr-stores">0</span><em>家</em></b></div>
+            <div class="kpi big"><small>新增年營收</small><b><em>NT$</em><span id="fr-rev">0</span><em>萬</em></b></div>
+            <div class="kpi big"><small>預計完成時間</small><b><span id="fr-months">0</span><em>個月</em></b><small id="fr-date" class="sub"></small></div>
+            <div class="kpi big"><small>新增會員</small><b><span id="fr-members">0</span><em>人</em></b></div>
+          </div>
+          <div class="fund-bottom">
+            <div class="card fund-map-card"><div id="fundMap" class="map"></div></div>
+            <div class="card timeline-card">
+              <div class="tl-head"><h3>拓展城市與開幕時程</h3><span id="fr-cities" class="city-count"></span></div>
+              <ol class="timeline" id="fundTimeline"></ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 11 募資需求 / 結尾 ===================== -->
+    <section class="slide ask" data-title="募資需求">
+      <div class="ask-grid">
+        <div>
+          <span class="eyebrow reveal">10 ・ The Ask</span>
+          <h2 class="reveal" style="--d:.08s">Pre-A 輪募資<br><span class="hl">NT$ 1,000 萬</span></h2>
+          <p class="lead reveal" style="--d:.16s">出讓 12.5% 股權 ・ 投前估值 NT$ 7,000 萬</p>
+          <div class="ask-actions reveal" style="--d:.24s">
+            <button class="btn primary" type="button" data-goto="slide-fund">試算其他募資金額 →</button>
+            <button class="btn" type="button" data-goto="slide-map">回到展店地圖</button>
+          </div>
+        </div>
+        <div class="card milestones reveal" style="--d:.2s">
+          <h3 class="card-title">18 個月里程碑</h3>
+          <ol>
+            <li><b>M3</b><span>第二階段首店「內湖科技店」開幕</span></li>
+            <li><b>M8</b><span>完成五都佈點，會員突破 3,000 人</span></li>
+            <li><b>M12</b><span>EBITDA 轉正，App MAU 達 1.2 萬</span></li>
+            <li><b>M18</b><span>門市達 11 家，啟動加盟授權計畫</span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="thanks reveal" style="--d:.3s">
+        <span class="logo">M</span>
+        <div><b>謝謝聆聽，期待與您一起讓運動更簡單。</b><small>hello@mova.example ・ 本簡報所有數據皆為示意用模擬資料</small></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 底部控制列 -->
+  <nav class="controls" aria-label="簡報控制">
+    <div class="ctrl-left"><span class="logo sm">M</span><span class="ctrl-title">MOVA 動空間 ・ 商業模式提案</span><span class="disclaimer">＊數據皆為示意</span></div>
+    <div class="ctrl-right">
+      <button type="button" id="btnOverview" title="總覽 (O)" aria-label="總覽">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+      </button>
+      <button type="button" id="btnPrev" title="上一頁 (←)" aria-label="上一頁"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <span class="page" id="pageNum">1 / 11</span>
+      <button type="button" id="btnNext" title="下一頁 (→)" aria-label="下一頁"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button type="button" id="btnFull" title="全螢幕 (F)" aria-label="全螢幕"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+  </nav>
+
+  <!-- 總覽 -->
+  <div class="overview" id="overview" hidden>
+    <div class="ov-inner">
+      <div class="ov-head"><h2>簡報總覽</h2><button type="button" class="btn" id="ovClose">關閉 (Esc)</button></div>
+      <div class="ov-grid" id="ovGrid"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
